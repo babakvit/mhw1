@@ -37,10 +37,15 @@ a {
     font-size: 24px;
     background-color: darkred;
     color: red;
-    padding: 5px 15px;
+    padding: 25px;
     border-radius: 50px;
     
   }
+
+  a:hover{
+    background-color: rgb(86, 80, 80);
+  }
+
   
   nav {
     display: flex;
@@ -88,4 +93,32 @@ a {
     display: flex;
     align-items: center;
     border-radius: 10px;
+  }
+
+  #container{
+    height: 150px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: black;
+  }
+
+  .item{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+    position: absolute;
+    transform: translate(0%, -50%);
+    z-index: 1;
+  }
+
+  .voto{
+    font-family: Arial;
+    font-weight: bold;
+    color: red;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
   }
